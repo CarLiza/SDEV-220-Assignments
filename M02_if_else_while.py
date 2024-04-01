@@ -5,7 +5,7 @@ This app will get information from the student such as name, last name, and GPA.
 Next, the program will select students that that qualife for the Dean's list or Honor Roll.
 """
 lastname = input("Enter the student lastname, 'ZZZ' to quit: ")
-#we are asking if the lastname is different than ZZZ to quitthe redords or continue
+#we are asking if the lastname is different than ZZZ to quit the redords or continue
 while lastname != "ZZZ":
     fname = input("Enter the student name: ")
     gpa = float(input("Enter the student gpa: "))
